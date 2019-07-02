@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * Express web server configured to host ST Schema connector
+ */
+
 require('dotenv').config();
 const express = require('express')
 const connector = require('./connector')

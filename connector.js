@@ -1,3 +1,9 @@
+'use strict';
+
+/**
+ * ST Schema connector
+ */
+
 const {SchemaConnector, DeviceErrorTypes} = require('st-schema')
 const deviceStates = { switch: 'off', level: 100}
 const connector = new SchemaConnector()
@@ -24,7 +30,7 @@ const connector = new SchemaConnector()
     .commandHandler((accessToken, response, devices) => {
       for (const device of devices) {
         const deviceResponse = response.addDevice(device.externalDeviceId);
-        for (cmd of device.commands) {
+        for (const cmd of device.commands) {
           const state = {
             component: cmd.component,
             capability: cmd.capability
