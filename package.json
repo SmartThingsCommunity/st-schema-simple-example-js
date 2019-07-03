@@ -16,6 +16,6 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
-    "st-schema": "^1.1.0"
+    "st-schema": "^1.1.1"
   }
 }
