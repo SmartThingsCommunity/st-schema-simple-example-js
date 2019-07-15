@@ -1,21 +1,30 @@
 {
   "name": "st-schema-simple-example",
   "version": "1.0.0",
-  "description": "Simple ST Schema example that create one dimmer",
+  "description": "Simple ST Schema example that creates one dimmer",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "SmartThings",
-    "ST",
-    "Schema"
+    "st-schema",
+    "smartthings-schema",
+    "IoT"
   ],
   "author": "Bob Florian",
   "license": "Apache-2.0",
   "dependencies": {
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
-    "st-schema": "^1.1.1"
-  }
+    "st-schema": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmartThingsCommunity/st-schema-simple-example-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SmartThingsCommunity/st-schema-simple-example-js/issues"
+  },
+  "homepage": "https://github.com/SmartThingsCommunity/st-schema-simple-example-js#readme"
 }

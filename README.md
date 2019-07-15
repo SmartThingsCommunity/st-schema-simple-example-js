@@ -143,6 +143,13 @@ secret.
   ACCESS_TOKEN_REQUEST_PATH="/oauth/token"
 ```
 
+## Testing the device
+
+Tap the _Test Dimmer_ device icon in the main devices view and it should turn on and off. You should see ST Schema requests
+and responses logged to the console. Remove the `.enableEventLogging(2)` line from `connector.js` to stop these
+messages. Go into the detail view of the device to see the brightness control. Sliding this control will also 
+result in calls to your connector and messages logged to the console.
+
 ## Did that, what's next?
 
 Check out the [ST Schema Callback Example](https://github.com/SmartThingsCommunity/st-schema-callback-example-js)
