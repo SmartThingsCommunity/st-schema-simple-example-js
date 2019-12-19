@@ -9,7 +9,9 @@ const deviceStates = { switch: 'off', level: 100}
 const connector = new SchemaConnector()
     .enableEventLogging(2)
     .discoveryHandler((accessToken, response) => {
-      response.addDevice('external-device-1', 'Test Dimmer', 'c2c-dimmer')
+      const d = response.addDevice('external-device-1', 'Test Dimmer', 'c2c-dimmer')
+      d.manufacturerName('STS');
+      d.modelName('Dimmer 1');
     })
     .stateRefreshHandler((accessToken, response) => {
       response.addDevice('external-device-1', [
