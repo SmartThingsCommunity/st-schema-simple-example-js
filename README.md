@@ -65,7 +65,7 @@ or [Google Play Store](https://play.google.com/store/apps/details?id=com.samsung
 
 #### Instructions
 
-1. Remix the [st-schema-simple-example](https://glitch.com/~st-schema-simple-example-js) project.
+1. Remix the [st-schema-simple-example](https://glitch.com/~smartthingscommunity-st-schema-simple-example-js) project.
 
 1. Set the values in the `.env` file using `.env-example` as a guide. 
 
